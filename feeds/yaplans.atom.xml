@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>yaplans.github.com - yaplans</title><link href="http://yaplans.github.com/" rel="alternate"></link><link href="http://yaplans.github.com/feeds/yaplans.atom.xml" rel="self"></link><id>http://yaplans.github.com/</id><updated>2018-12-26T15:00:00+00:00</updated><entry><title>Hello world!</title><link href="http://yaplans.github.com/hello.html" rel="alternate"></link><published>2018-12-26T15:00:00+00:00</published><updated>2018-12-26T15:00:00+00:00</updated><author><name>yaplans</name></author><id>tag:yaplans.github.com,2018-12-26:/hello.html</id><summary type="html">&lt;p&gt;Hello from Pelican!&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;Hello from Pelican!&lt;/p&gt;
-</content></entry></feed>
