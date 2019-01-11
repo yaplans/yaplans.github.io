@@ -37,6 +37,7 @@ alert("Проба js!22222");
 alert("Проба js!3333");  
   iframe.onload = function() {
     var iframeDoc2 = iframe.contentWindow.document;
+    alert(iframeDoc2.body.style.backgroundColor);  
     iframeDoc2.body.style.backgroundColor = 'orange';
   }
   alert("Проба js!4444");
