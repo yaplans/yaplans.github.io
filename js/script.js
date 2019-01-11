@@ -5,6 +5,7 @@ alert("Проба js!");
 //	var list = document.getElementById('list')
 	var list = document.getElementById('m_art');
 	// новый элемент
+        
 	var li = document.createElement('LI');
 	li.innerHTML = 'Новый элемент списка'
 	// добавление в конец
