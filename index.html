@@ -26,18 +26,23 @@
 <iframe src="javascript:'тест'" style="height:60px"></iframe>
 
 <script>
+    alert("Проба js!11111");
   var iframe = document.getElementsByTagName('iframe')[0];
 
   var iframeDoc = iframe.contentWindow.document;
-
+alert("Проба js!22222");
   if (iframeDoc.readyState == 'complete') {
     iframeDoc.body.style.backgroundColor = 'green';
   }
+alert("Проба js!3333");  
   iframe.onload = function() {
     var iframeDoc2 = iframe.contentWindow.document;
     iframeDoc2.body.style.backgroundColor = 'orange';
   }
+  alert("Проба js!4444");
 </script>
+<!--
 <script src="js/script.js"></script>
+-->
 </body>
 </html>
