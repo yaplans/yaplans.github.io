@@ -1,48 +1,18 @@
-<!DOCUMENT html>
-<html>
-<head>
-  <meta content="no-cache">
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-<!--  <script src="js/script.js"></script>
--->
-</head>
-<body>
-<p>С Новым Веселым Годом!</p>
+---
+layout: default
+---
 
-<h2>Статьи</h2>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-<ul id="m_art">
-</ul>
-<!--
-<iframe src="javascript:'тест'" style="height:60px"></iframe>
+      <h1><a href="{{ site.baseurl }}/jekyll-now{{ post.url }}">{{ post.title }}</a></h1>
 
-<script>
-    alert("Проба js!11111");
-  var iframe = document.getElementsByTagName('iframe')[0];
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-  var iframeDoc = iframe.contentWindow.document;
-alert("Проба js!22222");
-  if (iframeDoc.readyState == 'complete') {
-    iframeDoc.body.style.backgroundColor = 'green';
-  }
-alert("Проба js!3333");  
-alert(iframe);
-console.log(iframe);
-  iframe.onload = function() {
-      console.log("999");
-      alert("Проба js!5555");  
-    var iframeDoc2 = iframe.contentWindow.document;
-    alert(iframeDoc2.body.style.backgroundColor);  
-    iframeDoc2.body.style.backgroundColor = 'orange';
-    console.log("22");
-  }
-  alert("Проба js!4444");
-  console.log("22");
-</script>
--->
-<!--
-<script src="js/script.js"></script>
--->
-</body>
-</html>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
