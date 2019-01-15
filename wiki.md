@@ -1,0 +1,16 @@
+---
+layout: page
+title: About wiki
+permalink: /about/
+---
+
+Это попытка создать wiki...
+О себе не говорят.
+
+### Еще информация
+
+Промолчу...
+
+### Контакты
+
+[yaplans@mail.ru](mailto:yaplans@mail.ru)
