@@ -1,11 +1,11 @@
 .wiki-contents {
     background: red fixed;
     width: 20%;
-    display: inline;
+    float: left;
 }
 
 .wiki-article {
   background: green fixed;
-  width: 80%;
-  display: inline;
+  // width: 80%;
+  display: inline-block;
 }
