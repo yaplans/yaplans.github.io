@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About wiki
-permalink: /about/
+title: Wiki
+permalink: /wiki/
 ---
 
 Это попытка создать wiki...
