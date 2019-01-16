@@ -5,9 +5,10 @@ layout: default_wiki
 
     <div class="posts">
       {% for post in site.posts %}
-        <article class="post">
 
-          <!--<h5>
+          <!--
+        <article class="post">
+          <h5>
           </h5>
           -->
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -20,9 +21,9 @@ layout: default_wiki
 
 <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 
+        </article>
 -->
 
-        </article>
       {% endfor %}
     </div>
 
