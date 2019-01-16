@@ -5,20 +5,18 @@ layout: default_wiki
 
       <div class="row">
         <div class="col-sm-3">
-<!--            
           <ul class="list-group">
--->
             {% for post in site.posts %}
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </li>
 <!--            
             <li class="list-group-item d-flex justify-content-between align-items-center"> Cras justo odio <span class="badge badge-primary badge-pill">14</span> </li>
             <li class="list-group-item d-flex justify-content-between align-items-center"> Dapibus ac facilisis in <span class="badge badge-primary badge-pill">2</span> </li>
             <li class="list-group-item d-flex justify-content-between align-items-center"> Morbi leo risus <span class="badge badge-primary badge-pill">1</span> </li>
 -->
             {% endfor %}
-<!--            
           </ul>
--->
         </div>
         <div class="col-sm-8">
 <!--            
